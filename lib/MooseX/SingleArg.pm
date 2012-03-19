@@ -1,6 +1,6 @@
 package MooseX::SingleArg;
 {
-  $MooseX::SingleArg::VERSION = '0.01';
+  $MooseX::SingleArg::VERSION = '0.02';
 }
 use Moose ();
 use Moose::Exporter;
@@ -92,7 +92,7 @@ sub init_meta {
 {
     package MooseX::SingleArg::Role;
 {
-  $MooseX::SingleArg::Role::VERSION = '0.01';
+  $MooseX::SingleArg::Role::VERSION = '0.02';
 }
     use Moose::Role;
 

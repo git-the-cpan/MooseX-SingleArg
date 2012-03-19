@@ -12,6 +12,7 @@ my %WriteMakefileArgs = (
   "ABSTRACT" => "No-fuss instantiation of Moose objects using a single argument.",
   "AUTHOR" => "Aran Deltac <bluefeet\@gmail.com>",
   "BUILD_REQUIRES" => {
+    "Test::Fatal" => "0.001",
     "Test::Simple" => "0.94"
   },
   "CONFIGURE_REQUIRES" => {
@@ -22,9 +23,10 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "MooseX::SingleArg",
   "PREREQ_PM" => {
-    "Moose" => "2.0000"
+    "Moose" => "1.23",
+    "MooseX::ClassAttribute" => "0.24"
   },
-  "VERSION" => "0.01",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => "t/*.t"
   }
