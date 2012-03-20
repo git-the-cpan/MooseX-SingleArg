@@ -1,5 +1,9 @@
 Revision history for Perl extension MooseX::SingleArg.
 
+0.03      2012-03-20
+ - Comment on MooseX::OneArgNew.
+ - Add force option.
+
 0.02      2012-03-19
  - Fix prereqs.
 

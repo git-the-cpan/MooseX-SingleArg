@@ -19,5 +19,5 @@ requires:
   MooseX::ClassAttribute: 0.24
 resources:
   bugtracker: https://github.com/bluefeet/MooseX-SingleArg/issues
-  repository: git://github.com/bluefeet/MooseX--SingleArg.git
-version: 0.02
+  repository: git://github.com/bluefeet/MooseX-SingleArg.git
+version: 0.03
